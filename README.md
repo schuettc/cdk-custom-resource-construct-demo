@@ -1,14 +1,21 @@
-# Welcome to your CDK TypeScript project!
+# CDK Custom Resource Construct Demo
 
-This is a blank project for TypeScript development with CDK.
+This is a complementary CDK to the [npm package](https://www.npmjs.com/package/cdk-custom-resource-construct-example) example.
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+### Requirements
 
-## Useful commands
+- yarn
 
- * `npm run build`   compile typescript to js
- * `npm run watch`   watch for changes and compile
- * `npm run test`    perform the jest unit tests
- * `cdk deploy`      deploy this stack to your default AWS account/region
- * `cdk diff`        compare deployed stack with current state
- * `cdk synth`       emits the synthesized CloudFormation template
+### Instructions
+
+```bash
+git clone https://github.com/schuettc/cdk-custom-resource-construct-demo
+cd cdk-custom-resource-construct-demo
+yarn
+yarn run build
+npx cdk deploy
+```
+
+### Results
+
+Once deployed, the CDK will create a Custom Resource that will simply multiply the [input](https://github.com/schuettc/cdk-custom-resource-construct-demo/blob/6b460937b269ef7343fa0cc3e10cfd6404c358a5/lib/cdk-custom-resource-construct-demo-stack.ts#L10) and return a response. This response will be presented as the CloudFormation Output.
