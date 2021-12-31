@@ -1,16 +1,17 @@
-import { Stack, StackProps } from 'aws-cdk-lib';
+import { CfnOutput, Stack, StackProps } from 'aws-cdk-lib';
 import { Construct } from 'constructs';
-// import * as sqs from 'aws-cdk-lib/aws-sqs';
+import { CustomResourceExample } from 'cdk-custom-resource-construct-example';
 
 export class CdkCustomResourceConstructDemoStack extends Stack {
   constructor(scope: Construct, id: string, props?: StackProps) {
     super(scope, id, props);
 
-    // The code that defines your stack goes here
+    const result = new CustomResourceExample(this, 'customResourceResult', {
+      customResourceNumber: 5,
+    });
 
-    // example resource
-    // const queue = new sqs.Queue(this, 'CdkCustomResourceConstructDemoQueue', {
-    //   visibilityTimeout: cdk.Duration.seconds(300)
-    // });
+    new CfnOutput(this, 'customResourceOutput', {
+      value: result.customResourceResult,
+    });
   }
 }
