@@ -718,15 +718,10 @@ acorn-walk@^8.1.1, acorn-walk@^8.2.0:
   resolved "https://registry.yarnpkg.com/acorn-walk/-/acorn-walk-8.2.0.tgz#741210f2e2426454508853a2f44d0ab83b7f69c1"
   integrity sha512-k+iyHEuPgSw6SbuDpGQM+06HQUa04DZ3o+F6CSzXMvvI5KMvnaEqXe+YVe555R9nn6GPt404fos4wcgpw12SDA==
 
-acorn@^8.4.1:
+acorn@^8.4.1, acorn@^8.7.0:
   version "8.8.1"
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-8.8.1.tgz#0a3f9cbecc4ec3bea6f0a80b66ae8dd2da250b73"
   integrity sha512-7zFpHzhnqYKrkYdUjF1HI1bzd0VygEGX8lFk4k5zVMqHEoES+P+7TKI+EvLO9WVMJ8eekdO0aDEK044xTXwPPA==
-
-acorn@^8.7.0:
-  version "8.7.0"
-  resolved "https://registry.yarnpkg.com/acorn/-/acorn-8.7.0.tgz#90951fde0f8f09df93549481e5fc141445b791cf"
-  integrity sha512-V/LGr1APy+PXIwKebEWrkZPwoeoF+w1jiOBUmuxuiUIaOHtob8Qc9BTrYo7VuI5fR8tqsy+buA2WFooR5olqvQ==
 
 ansi-escapes@^4.2.1:
   version "4.3.2"
@@ -944,9 +939,9 @@ case@1.6.3:
   integrity sha512-mzDSXIPaFwVDvZAHqZ9VlbyF4yyXRuX6IvB06WvPYkqJVO24kX1PPhv9bfpKNFZyxYFmmgo03HUiD8iklmJYRQ==
 
 cdk-custom-resource-construct-example@^1.0.5:
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/cdk-custom-resource-construct-example/-/cdk-custom-resource-construct-example-1.0.5.tgz#ab1e839faf1b197df09196774119f83b462e338e"
-  integrity sha512-5mwjvdNyRZ079AAHtnR4EnSNu8tM6PK6qlWdtt3wtk/gwQyA+c5noU5SHBZFW8CyaFaeMWJ9r1pEz+tJMnNzLQ==
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/cdk-custom-resource-construct-example/-/cdk-custom-resource-construct-example-1.0.7.tgz#61691fb5e7dd241aaf96ccf2f1db1c092bee8365"
+  integrity sha512-LmZZ7tqqv2E4MTC7fkyfInJdm+v9IfwsyO4h4hbclzEkwuabW2ojAhoA16Q5kX/h3v+X1ltG0PKVAsk3ssU61w==
 
 chalk@^2.0.0:
   version "2.4.2"
