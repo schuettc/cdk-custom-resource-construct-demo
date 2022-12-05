@@ -13,7 +13,7 @@ git clone https://github.com/schuettc/cdk-custom-resource-construct-demo
 cd cdk-custom-resource-construct-demo
 yarn
 yarn run build
-npx cdk deploy
+yarn cdk deploy
 ```
 
 ### Results
