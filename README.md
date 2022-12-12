@@ -1,3 +1,5 @@
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=443233366)
+
 # CDK Custom Resource Construct Demo
 
 This is a complementary CDK to the [npm package](https://www.npmjs.com/package/cdk-custom-resource-construct-example) example.
