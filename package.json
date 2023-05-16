@@ -25,6 +25,6 @@
     "constructs": "^10.0.0",
     "minimist": "1.2.7",
     "source-map-support": "^0.5.16",
-    "vm2": "3.9.12"
+    "vm2": "3.9.18"
   }
 }
