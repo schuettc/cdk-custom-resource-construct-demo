@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "aws-cdk": "^2.165.0",
-    "aws-cdk-lib": "^2.165.0",
+    "aws-cdk-lib": "^2.177.0",
     "cdk-custom-resource-construct-example": "*",
     "constructs": "^10.0.0",
     "source-map-support": "^0.5.16",
